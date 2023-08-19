@@ -103,7 +103,7 @@ class _CreateBlogState extends State<CreateBlog> {
       DataModel(
         text: _textController.text,
         title: _titleController.text,
-        authername: _authorNameController.text,
+        authorname: _authorNameController.text,
         ImageUrl: imageUrl,
       ),
       

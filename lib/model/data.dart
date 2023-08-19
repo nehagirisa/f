@@ -4,7 +4,7 @@ class DataModel {
     this.text,
     this.summary,
     this.title,
-    this.authername,
+    this.authorname,
     this.ImageUrl
     // this.updateTime,
   });
@@ -12,7 +12,7 @@ class DataModel {
   late final String? text;
   late final String? summary;
   late final String? title;
-  late final String? authername;
+  late final String? authorname;
    late final String? ImageUrl;
   // late final Timestamp? updateTime;
 
@@ -20,7 +20,7 @@ class DataModel {
     text = json['text'];
     title = json['title'];
     summary = json['summary'];
-    authername = json['authername'];
+    authorname = json['authorname'];
     ImageUrl = json['ImageUrl'];
     // updateTime = json['updateTime'];
   }
@@ -30,7 +30,7 @@ class DataModel {
       'text': text,
       'title': title,
       'summary': summary,
-      'authername': authername,
+      'authorname': authorname,
       'ImageUrl': ImageUrl,
       //  'updateTime': updateTime,
 

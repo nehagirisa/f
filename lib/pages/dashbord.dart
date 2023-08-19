@@ -101,7 +101,7 @@ class _DashboardState extends State<Dashboard> {
                                                 children: <TextSpan>[
                                                   TextSpan(
                                                       text: blogList[index]
-                                                          .authername
+                                                          .authorname
                                                           .toString(),
                                                       style: const TextStyle(
                                                           color: Colors.white,
