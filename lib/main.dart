@@ -1,4 +1,5 @@
 
+import 'package:firebase_extensions/api_key.dart';
 import 'package:firebase_extensions/pages/create_blog.dart';
 import 'package:firebase_extensions/pages/dashbord.dart';
 
@@ -8,8 +9,8 @@ import 'package:firebase_core/firebase_core.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: const FirebaseOptions(
-     apiKey: "AIzaSyCKOBopRJBPTR_3BD31QRNgBsvTh4vUaJ4",
+    options:  FirebaseOptions(
+     apiKey: tmdbApiKey,
     authDomain: "summarize-text-88b87.firebaseapp.com",
     projectId: "summarize-text-88b87",
     storageBucket: "summarize-text-88b87.appspot.com",
